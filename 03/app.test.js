@@ -8,3 +8,9 @@ test('check if the result is 1', () => {
 
 
 })
+
+test('check if arguments are type of number', () => {
+
+
+    expect(() => randomNumber("S", 1)).toThrow('Value is not a number')
+})
